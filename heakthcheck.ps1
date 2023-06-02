@@ -7,7 +7,7 @@ function sendTeamMessage($TeamChannel) {
 if ($TeamChannel -eq "success") {
 $myTeamsWebHook = "<Your MS Team success channel Webhook URL>"
 } else {
-$myTeamsWebHook ="<Your MS Team success channel Webhook URL>" 
+$myTeamsWebHook ="<Your MS Team falure channel Webhook URL>" 
 }
  
 $BodyTemplate = @"
